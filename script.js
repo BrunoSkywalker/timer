@@ -7,7 +7,7 @@ const deadline = new Date("aug 10, 2022 00:00:00").getTime();
 const now = new Date().getTime();
 const t = deadline - now;
 const days = Math.floor(t / (1000 * 60 * 60 * 24));
-const hours = Math.floor((t%(100*60*60*24))/(1000*60*60));
+const hours = Math.floor((t%(1000*60*60*24))/(1000*60*60));
 const minutes = Math.floor((t% (1000*60*60))/(1000*60));
 const seconds = Math.floor ((t% (1000*60))/ 1000);
 
