@@ -1,6 +1,6 @@
 // alert("working")
 
-const deadline = new Date("aug 10, 2022 00:00:00").getTime();
+const deadline = new Date("aug 10, 2023 00:00:00").getTime();
 
 // alert(deadline);
 
